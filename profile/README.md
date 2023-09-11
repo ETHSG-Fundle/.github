@@ -10,7 +10,6 @@ This unique platform solves the problem for many people who are interested to he
 4. **Finding more economically efficient options for donating**: Choosing to spend a budget on even the most deserving charity can be a pain in these challenging times, so Fundle offers a lossless donation option where donors can get back all the money they deposited and still make a huge impact.
 
 ## Table of Contents
-- [Introduction][#a-quadratic-fundraising-platform-powered-by-risk-free-yields]
 - [How Fundle Works](#how-fundle-works)
 - [Technologies Used](#technologies-used)
 - [Future Developments](#future-developments)
@@ -68,3 +67,37 @@ We are planning to make Fundle a holistic platform for fundraising and we alread
 
 ## Deployed Contract Addresses
 
+**Goerli**
+
+Beneficiary Certificate
+0x47f576b1E1EfD61c3a07F4576a177b8a20602B4b
+
+Donation Manager
+0x4e4BaC2A8C616CF152bAcf6dDBF71bA416Cfb6A3
+
+Savings DAI ERC4626 Strategy
+0x0C7A33c1C5826a4F75054eDB46b358B247391398
+
+GMP Donation Receiver
+
+
+AXLUSDC ERC20 Token
+0x254d06f33bDc5b8ee05b2ea472107E300226659A
+
+
+**Mantle**
+
+GMP Donation Relayer
+0x9a72c125b30f7bebE4B3e8D1cFFA214EEaf79128
+
+AXLUSDC ERC20 Token
+0x254d06f33bDc5b8ee05b2ea472107E300226659A
+
+
+**Linea**
+
+GMP Donation Relayer
+
+
+AXLUSDC ERC20 Token
+0x254d06f33bDc5b8ee05b2ea472107E300226659A
