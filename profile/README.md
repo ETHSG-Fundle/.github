@@ -1,5 +1,7 @@
 # Fundle
 
+![fundle](https://github.com/ETHSG-Fundle/.github/assets/101350894/c805fd3d-41c6-4efe-b4c6-87f5b0d82942)
+
 Fundle is an interchain Quadratic Funding Platform that is powered by a Lossless Pool generated from DeFi fixed yields. Beyond the traditional direct transfers, donors have the option give without losing anything by simply depositing funds to the protocol for an amount of time. They will get back 100% of their funds risk-free, meanwhile NPOs get to keep the yields (distributed quadratically) to support their causes.
 
 This unique platform solves the problem for many people who are interested to help but come across common hurdles, like:
@@ -8,6 +10,8 @@ This unique platform solves the problem for many people who are interested to he
 2. **Needing to do research and verify that the recipient is indeed a legitimate beneficiary**: All the beneficiaries listed on Fundle have been evaluated and accredited by a central authority before they get to be part of the protocol
 3. **Transparency of donation distribution**: How the donations will be distributed is already programmed in a smart contract and the status can be monitored in real-time through Fundle
 4. **Finding more economically efficient options for donating**: Choosing to spend a budget on even the most deserving charity can be a pain in these challenging times, so Fundle offers a lossless donation option where donors can get back all the money they deposited and still make a huge impact.
+
+
 
 ## Table of Contents
 - [How Fundle Works](#how-fundle-works)
@@ -22,9 +26,17 @@ This unique platform solves the problem for many people who are interested to he
 
 Bringing fundraising to the blockchain offers advantages that cannot be found anywhere else. For organizations, fundraising through a completely transparent platform can boost their credibility and streamline the disbursement process for them. And for donors, they can find incredibly efficient systems to maximize the impact of even the smallest contributions. 
 
+![Screenshot (526)](https://github.com/ETHSG-Fundle/.github/assets/101350894/026ad6cf-b207-440e-afd2-706a3507b2a7)
+
+
 Fundle is taking on the huge challenge of building a credible fundraising platform that opens possibilities for lossless donations. Through fixed yield, people who are economically conscious can contribute by just parking their funds in the platform. **And because it is risk-free, it can radically lower the barrier for anyone who would like to help worthy causes.**
 
+![farm](https://github.com/ETHSG-Fundle/.github/assets/101350894/760e201b-249b-49a6-bcb8-56a5e34aba24)
+
+
 Aside from that, users can directly donate to the matching pool where their contributions will affect how the quadratic pool from fixed yields is distributed among NPOs.
+
+![Screenshot (526)](https://github.com/ETHSG-Fundle/.github/assets/101350894/3a77b85d-dee4-4391-b347-8ff9e7439467)
 
 Only the accredited beneficiaries can be listed in the donation pool, so while the donation process is convenient, it is also official. The flow of funds is also fully transparent and cannot be tampered with, so it will be open for anyone to monitor. 
 
