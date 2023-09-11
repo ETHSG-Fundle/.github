@@ -36,7 +36,7 @@ Fundle is taking on the huge challenge of building a credible fundraising platfo
 
 Aside from that, users can directly donate to the matching pool where their contributions will affect how the quadratic pool from fixed yields is distributed among NPOs.
 
-![Screenshot (526)](https://github.com/ETHSG-Fundle/.github/assets/101350894/3a77b85d-dee4-4391-b347-8ff9e7439467)
+![Fund](https://github.com/ETHSG-Fundle/.github/assets/101350894/787358b3-261c-458f-b0ac-ebe92c98638b)
 
 Only the accredited beneficiaries can be listed in the donation pool, so while the donation process is convenient, it is also official. The flow of funds is also fully transparent and cannot be tampered with, so it will be open for anyone to monitor. 
 
