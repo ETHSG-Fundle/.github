@@ -50,7 +50,9 @@ The user journey for Donors:
 Fundle used a quadratic pool that takes in direct donations and yield-generated donations, and then it distributes them to match the individual donations made to each NPO
 
 **Charities input programs to attract funding**: Fundle enables accredited charities to list on the protocol, bringing them a secure way to accept donations from a wider audience
+
 **Ensure credibility of charities**: There will be a centralized authority to see through registration and make sure that only certified beneficiaries can accept donations from Fundle pools
+
 **Accurate Donor Matching**: The quadratic matching is coded in the Donation Manager smart contract, where the quadratic pool from Farm-to-Fund mechanism and general donations are accurately matched to user's direct NPO donations. 
 
 
@@ -59,15 +61,21 @@ Fundle used a quadratic pool that takes in direct donations and yield-generated 
 A centralised, congregated avenue to handle various donation methods for different types of donors and also for fund disbursement.
 
 **Transparency**: Fund disbursement and handling of donation are all executed via autonomous smart contracts
+
 **Tracking**: Donors, both big and small are able to track where the donations go in real time through Fundle dApp
+
 **Engagement**: Seeing how their supported NPOs measure in the quadratic funding pool can encourage greater support from donors
+
 **Profiling of donors**: There are three different ways to donate for each type of donors
+
 **Donor payment gateway**: Fundle can accept donations from three chains-- Goerli, Mantle, and Linea
+
 **Reaching international donors**: Crypto makes cross-border payments incredibly cheap and fast
+
 
 ## Technologies Used
 
-- **Pendle’s PT sUSDC**: Pendle’s fixed yield on fUSDC made the lossless donation pool possible. This is the technology that enables the protocol to generate risk-free yields for the quadratic pool
+- **Pendle’s PT fUSDC**: Pendle’s fixed yield on fUSDC made the lossless donation pool possible. This is the technology that enables the protocol to generate risk-free yields for the quadratic pool
 
 - **DAI and sDAI**: A live forked version of the ERC4626 Savings DAI contract from SparkProtocol has been launched to integrate with one of our lossless strategy `sDAI ERC4626Strategy` to accrue yield from lossless donors and subsequently matched to donors via our quadratic funding mechanism. This way lossless donor can have the option to generate fixed yield from their funds through MakerDAO and SparkProtocol's DAI and sDAI.
 
