@@ -23,7 +23,7 @@ Fundle is taking on the huge challenge of building a credible fundraising platfo
 
 Aside from that, users can directly donate to the matching pool where their contributions will affect how the quadratic pool from fixed yields is distributed among NPOs.
 
-Only the accredited AA wallets can be listed in the donation pool, so while the donation process is convenient, it is also official. The flow of funds is also fully transparent and cannot be tampered with, so it will be open for anyone to monitor. 
+Only the accredited beneficiaries can be listed in the donation pool, so while the donation process is convenient, it is also official. The flow of funds is also fully transparent and cannot be tampered with, so it will be open for anyone to monitor. 
 
 ## How Fundle Works
 
@@ -48,7 +48,7 @@ The user journey for Donors:
 
 - **DAI and sDAI**: The user can also have the option to generate fixed yield from their funds through MakerDAO and SparkProtocol's DAI and sDAI
 
-- **Axelar**: Interchain donations were made possible because of Axelar message and token passing from Mantle and Linea to Goerli 
+- **Axelar**: Interchain donations were made possible because of Axelar's message and token passing from Mantle and Linea to Goerli. We used a deployed aUSDC (Axelar Wrapped USDC) as the ERC20 token to send through Axelar's interchain communication protocol.
 
 - **Mantle**: We have deployed Donation Relayer contracts on Mantle for user who chose the network's hyperscale performance, data availability, and robust security
 
@@ -70,16 +70,16 @@ We are planning to make Fundle a holistic platform for fundraising and we alread
 **Goerli**
 
 Beneficiary Certificate
-0x47f576b1E1EfD61c3a07F4576a177b8a20602B4b
+0x9cC857A6291598D10e9446808d3F0DDd205E0D64
 
 Donation Manager
-0x4e4BaC2A8C616CF152bAcf6dDBF71bA416Cfb6A3
+0x32f972DFbFAD84c986Db30681f1177e221ef72dd
 
 Savings DAI ERC4626 Strategy
-0x0C7A33c1C5826a4F75054eDB46b358B247391398
+0xea0F45be21af60bBb1321F960D381853b283744b
 
 GMP Donation Receiver
-
+0x59922Af38161b1DE091369b525d4dD92c5ac5bCE
 
 AXLUSDC ERC20 Token
 0x254d06f33bDc5b8ee05b2ea472107E300226659A
@@ -97,7 +97,7 @@ AXLUSDC ERC20 Token
 **Linea**
 
 GMP Donation Relayer
-
+0x1FFaa029FD4076c38e75A3dde600dd4A527a3229
 
 AXLUSDC ERC20 Token
 0x254d06f33bDc5b8ee05b2ea472107E300226659A
