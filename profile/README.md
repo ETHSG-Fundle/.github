@@ -10,7 +10,7 @@ This unique platform solves the problem for many people who are interested to he
 4. **Finding more economically efficient options for donating**: Choosing to spend a budget on even the most deserving charity can be a pain in these challenging times, so Fundle offers a lossless donation option where donors can get back all the money they deposited and still make a huge impact.
 
 ## Table of Contents
-- [Introduction][#a-quadratic-fundraising-platfrom-powered-by-risk-free-yields]
+- [Introduction][#a-quadratic-fundraising-platform-powered-by-risk-free-yields]
 - [How Fundle Works](#how-fundle-works)
 - [Technologies Used](#technologies-used)
 - [Future Developments](#future-developments)
