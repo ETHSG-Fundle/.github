@@ -4,7 +4,7 @@ Fundle is an interchain Quadratic Funding Platform that is powered by a Lossless
 
 This unique platform solves the problem for many people who are interested to help but come across common hurdles, like:
 
-1. **Decision fatigue from having to evaluate and pick from hundreds of NPOs**: Fundle offers direct deposits to the quadratic pool which automatically allocates to causes that the public care about the most
+1. **Donor fatigue from having to evaluate and pick from hundreds of NPOs**: Fundle offers direct deposits to the quadratic pool which automatically allocates to causes that the public care about the most
 2. **Needing to do research and verify that the recipient is indeed a legitimate beneficiary**: All the beneficiaries listed on Fundle have been evaluated and accredited by a central authority before they get to be part of the protocol
 3. **Transparency of donation distribution**: How the donations will be distributed is already programmed in a smart contract and the status can be monitored in real-time through Fundle
 4. **Finding more economically efficient options for donating**: Choosing to spend a budget on even the most deserving charity can be a pain in these challenging times, so Fundle offers a lossless donation option where donors can get back all the money they deposited and still make a huge impact.
@@ -15,6 +15,7 @@ This unique platform solves the problem for many people who are interested to he
 - [Future Developments](#future-developments)
 - [How to Run Locally](#how-to-run-locally)
 - [Deployed Contract Addresses](#deployed-contract-addresses)
+- [Axelar Bounty README](#axelar-bounty-readme)
 
 ## A Quadratic Fundraising Platform Powered by Risk Free Yields
 
@@ -47,15 +48,15 @@ The user journey for Donors:
 
 - **Pendle’s PT sUSDC**: Pendle’s fixed yield on fUSDC made the lossless donation pool possible. This is the technology that enables the protocol to generate risk-free yields for the quadratic pool
 
-- **DAI and sDAI**: The user can also have the option to generate fixed yield from their funds through MakerDAO and SparkProtocol's DAI and sDAI
+- **DAI and sDAI**: A live forked version of the ERC4626 Savings DAI contract from SparkProtocol has been launched to integrate with one of our lossless strategy `sDAI ERC4626Strategy` to accrue yield from lossless donors and subsequently matched to donors via our quadratic funding mechanism. This way lossless donor can have the option to generate fixed yield from their funds through MakerDAO and SparkProtocol's DAI and sDAI.
 
 - **Axelar**: Interchain donations were made possible because of Axelar's message and token passing from Mantle and Linea to Goerli. We used a deployed aUSDC (Axelar Wrapped USDC) as the ERC20 token to send through Axelar's interchain communication protocol.
 
 - **Mantle**: We have deployed Donation Relayer contracts on Mantle for user who chose the network's hyperscale performance, data availability, and robust security
 
-- **Linea**: We also deployed a contract that accepts donations from Linea for users who chose the network for its seamless integration with Metamask
+- **Linea, Metamask, and Infura**: We also deployed a contract that accepts donations from Linea for users who chose the network for its seamless integration with Metamask. We also use Infura's RPC endpoints for deploying smart contracts in Goerli and Linea. 
 
-- **Nouns Artwork**: We used Nouns’ assets to create a colorful UI theme that fosters optimism
+- **Nouns Artworks**: We used Nouns’ assets to create a colorful UI theme that fosters optimism
 
 ## Future Developments
 
@@ -69,7 +70,7 @@ We are planning to make Fundle a holistic platform for fundraising and we alread
 ## How to Run Locally
 
 - navigate to https://github.com/ETHSG-Fundle/fundle-fe
-- clone the repository by running `git clone` https://github.com/ETHSG-Fundle/fundle-fe.git
+- clone the repository by running `git clone https://github.com/ETHSG-Fundle/fundle-fe.git`
 - navigate to your local folder by entering `cd fundle-fe`
 - install the project dependencies by running `yarn`
 - run `yarn dev`
@@ -111,3 +112,18 @@ GMP Donation Relayer
 
 AXLUSDC ERC20 Token
 0x254d06f33bDc5b8ee05b2ea472107E300226659A
+
+## Axelar Bounty README
+
+Fundle offers seamless cross-chain donations to be made to specific beneficiaries or directly to the main quadratic funding pool via the `BeneficiaryDonationManager` that all exists on the main chain (ETH Goerli) from both Linea and Mantle L2 chains that leverages on the following design. This cross-chain experience/capability would be more appealing for donors with liquidity fragmented over different chains.
+
+A `GMPDonationReceiver` is deployed on the main chain that facilitates cross-chain donation function calls of the `BeneficiaryDonationManager` from side chains. Cross-chain calls are executed via `GMPDonationRelayer` that are deployed on both side-chains for donors with liquidity existing on these chains to have their funds bridged and routed to the `GMPDonationReceiver` which will interact directly with the `BeneficiaryDonationManager` in a single transaction call.
+
+**Example Cross-Chain Donation Function Call alongside with sending token i.e. `callContractWithToken`:**
+https://testnet.axelarscan.io/gmp/0x9c2b593cc13756ef2d26cbff2a1faf87a5fb3863d8b3cfb2b6b45af1c0185d91 [LINEA GOERLI to ETH GOERLI]
+
+**Experiences:**
+
+1. Learning how to integrate with Axelar Network was relatively smooth and interesting given the detailed documentation, example github repos stated in the documentations.
+2. Unlike most SDKs, Axelar Network provides robust support on testnets with almost all chains integrated and D-Apps to support for UI interaction and learning purposes.
+3. The Youtube Tutorial videos for devs were extremely helpful as it provided a live working example. The only downside to trying to integrate with Axelar is trying to debug cross-chain integration execution errors as error messages are not that helpful.
