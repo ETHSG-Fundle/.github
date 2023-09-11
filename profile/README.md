@@ -1,6 +1,6 @@
 # Fundle
 
-Fundle is a Quadratic Funding Platform that is powered by a Lossless Pool generated from DeFi fixed yields. Beyond the traditional direct transfers, donors have the option give without losing anything by simply depositing funds to the protocol for an amount of time. They will get back 100% of their funds risk-free, meanwhile NPOs get to keep the yields (distributed quadratically) to support their causes.
+Fundle is an interchain Quadratic Funding Platform that is powered by a Lossless Pool generated from DeFi fixed yields. Beyond the traditional direct transfers, donors have the option give without losing anything by simply depositing funds to the protocol for an amount of time. They will get back 100% of their funds risk-free, meanwhile NPOs get to keep the yields (distributed quadratically) to support their causes.
 
 This unique platform solves the problem for many people who are interested to help but come across common hurdles, like:
 
@@ -13,6 +13,7 @@ This unique platform solves the problem for many people who are interested to he
 - [How Fundle Works](#how-fundle-works)
 - [Technologies Used](#technologies-used)
 - [Future Developments](#future-developments)
+- [How to Run Locally](#how-to-run-locally)
 - [Deployed Contract Addresses](#deployed-contract-addresses)
 
 ## A Quadratic Fundraising Platform Powered by Risk Free Yields
@@ -67,8 +68,11 @@ We are planning to make Fundle a holistic platform for fundraising and we alread
 
 ## How to Run Locally
 
-- install the project dependencies by running ```yarn
-- run ```yarn dev
+- navigate to https://github.com/ETHSG-Fundle/fundle-fe
+- clone the repository by running `git clone` https://github.com/ETHSG-Fundle/fundle-fe.git
+- navigate to your local folder by entering `cd fundle-fe`
+- install the project dependencies by running `yarn`
+- run `yarn dev`
 - open your browser in the indicated localhost port
 
 ## Deployed Contract Addresses
