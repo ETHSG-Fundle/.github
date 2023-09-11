@@ -11,6 +11,7 @@ This unique platform solves the problem for many people who are interested to he
 
 ## Table of Contents
 - [How Fundle Works](#how-fundle-works)
+- [Problem Statements Addressed](#problem-statements-addressed)
 - [Technologies Used](#technologies-used)
 - [Future Developments](#future-developments)
 - [How to Run Locally](#how-to-run-locally)
@@ -42,9 +43,29 @@ The user journey for Donors:
 3. They can withdraw their deposits anytime, while the generated yields will go to Fundle's quadratic pool
 3. Donations that go to the quadratic pool will be distributed according to how many people directly donated to a project and how much they donated. This ensures that the funds go to organizations that people deem most deserving
 
-## Technologies Used
+## Problem Statements Addressed
 
-- **Quadratic Funding Mechanism**: Fundle used a quadratic pool that takes in direct donations and yield-generated donations, and then it distributes them to match the individual donations made to each NPO
+**Quadratic Funding Mechanism**
+
+Fundle used a quadratic pool that takes in direct donations and yield-generated donations, and then it distributes them to match the individual donations made to each NPO
+
+**Charities input programs to attract funding**: Fundle enables accredited charities to list on the protocol, bringing them a secure way to accept donations from a wider audience
+**Ensure credibility of charities**: There will be a centralized authority to see through registration and make sure that only certified beneficiaries can accept donations from Fundle pools
+**Accurate Donor Matching**: The quadratic matching is coded in the Donation Manager smart contract, where the quadratic pool from Farm-to-Fund mechanism and general donations are accurately matched to user's direct NPO donations. 
+
+
+**One-Stop Cross-Chain Platform**
+
+A centralised, congregated avenue to handle various donation methods for different types of donors and also for fund disbursement.
+
+**Transparency**: Fund disbursement and handling of donation are all executed via autonomous smart contracts
+**Tracking**: Donors, both big and small are able to track where the donations go in real time through Fundle dApp
+**Engagement**: Seeing how their supported NPOs measure in the quadratic funding pool can encourage greater support from donors
+**Profiling of donors**: There are three different ways to donate for each type of donors
+**Donor payment gateway**: Fundle can accept donations from three chains-- Goerli, Mantle, and Linea
+**Reaching international donors**: Crypto makes cross-border payments incredibly cheap and fast
+
+## Technologies Used
 
 - **Pendle’s PT sUSDC**: Pendle’s fixed yield on fUSDC made the lossless donation pool possible. This is the technology that enables the protocol to generate risk-free yields for the quadratic pool
 
