@@ -65,6 +65,12 @@ We are planning to make Fundle a holistic platform for fundraising and we alread
 - A token-gated page where NPOs can communicate to their respective donors and boost engagement and transparency
 - Integrating attestations to NPO wallets for donor feedback and suggestions
 
+## How to Run Locally
+
+- install the project dependencies by running ```yarn
+- run ```yarn dev
+- open your browser in the indicated localhost port
+
 ## Deployed Contract Addresses
 
 **Goerli**
