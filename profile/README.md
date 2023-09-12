@@ -121,43 +121,43 @@ We are planning to make Fundle a holistic platform for fundraising and we alread
 
 **Goerli**
 
-Beneficiary Certificate
+`Beneficiary Certificate`
 0x9cC857A6291598D10e9446808d3F0DDd205E0D64
 
-Donation Manager
+`Donation Manager`
 0x32f972DFbFAD84c986Db30681f1177e221ef72dd
 
-Savings DAI ERC4626 Strategy
+`Savings DAI ERC4626 Strategy`
 0x10371645FcB4668E04807baB7A34564fd745A111
 
-GMP Donation Receiver
+`GMP Donation Receiver`
 0xc027F2D4A76E6e86369aFbA397cfc1a6Fd97D3b5
 
-DAI (forked)
+`DAI (forked)`
 0x4023Ec52F26Cb9093D642cd7e40751EeA304eAbe
 
-sDAI (forked)
+`sDAI (forked)`
 0xaEcB1B62E8C3e6d0DeD2706c0e3A41b29B3Fdb73
 
-AXLUSDC ERC20 Token
+`AXLUSDC ERC20 Token`
 0x254d06f33bDc5b8ee05b2ea472107E300226659A
 
 
 **Mantle**
 
-GMP Donation Relayer
+`GMP Donation Relayer`
 0x5E04F56F0C5257c398C9A6F7E1e5caa318Eb7398
 
-AXLUSDC ERC20 Token
+`AXLUSDC ERC20 Token`
 0x254d06f33bDc5b8ee05b2ea472107E300226659A
 
 
 **Linea**
 
-GMP Donation Relayer
+`GMP Donation Relayer`
 0x1FFaa029FD4076c38e75A3dde600dd4A527a3229
 
-AXLUSDC ERC20 Token
+`AXLUSDC ERC20 Token`
 0x254d06f33bDc5b8ee05b2ea472107E300226659A
 
 ## Axelar Bounty README
