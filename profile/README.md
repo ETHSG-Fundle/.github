@@ -167,7 +167,7 @@ Fundle offers seamless cross-chain donations to be made to specific beneficiarie
 A `GMPDonationReceiver` is deployed on the main chain that facilitates cross-chain donation function calls of the `BeneficiaryDonationManager` from side chains. Cross-chain calls are executed via `GMPDonationRelayer` that are deployed on both side-chains for donors with liquidity existing on these chains to have their funds bridged and routed to the `GMPDonationReceiver` which will interact directly with the `BeneficiaryDonationManager` in a single transaction call.
 
 **Example Cross-Chain Donation Function Call alongside with sending token i.e. `callContractWithToken`:**
-https://testnet.axelarscan.io/gmp/0x9c2b593cc13756ef2d26cbff2a1faf87a5fb3863d8b3cfb2b6b45af1c0185d91 [LINEA GOERLI to ETH GOERLI]
+[https://testnet.axelarscan.io/gmp/0x9c2b593cc13756ef2d26cbff2a1faf87a5fb3863d8b3cfb2b6b45af1c0185d91](https://testnet.axelarscan.io/gmp/0x58e154094f1f926a05d346d6e4bd02b9ff2f4e980245b8648b7d5eb12fc3a048) [LINEA GOERLI to ETH GOERLI]
 
 **Experiences:**
 
